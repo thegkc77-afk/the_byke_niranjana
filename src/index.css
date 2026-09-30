@@ -1,11 +1,19 @@
-@layer base {
-  html, body, #root {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fef9ef;
+  color: #1d1c16;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
 /* Custom scrollbar styling */
@@ -22,4 +30,5 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #0f2016;
 }
+
 
